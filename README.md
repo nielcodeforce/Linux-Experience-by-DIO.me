@@ -1,4 +1,4 @@
-<h1> BOOTCAMP LINUX EXPERIENCE - PROJETO: INFRAESTRUTURA COMO CÓDIGO (IaC) </h1>
+<h2> BOOTCAMP LINUX EXPERIENCE - PROJETO: INFRAESTRUTURA COMO CÓDIGO (IaC) </h2>
 
 Intrutor: Denilson Bonatti - Tech Lead
 
@@ -17,8 +17,7 @@ Pré-requisitos: Linux e GitHub;
 (Full-Stack; Intermediário)
 
 
-DEFINIÇÕES:
------------
+<h4> DEFINIÇÕES:</h4>
 
 - Excluir diretórios, arquivos, grupos e usuários criados anteriormente;
 - Todo provisionamento deve ser feito num arquivo do tipo Bash Script;
@@ -30,8 +29,7 @@ DEFINIÇÕES:
 - Subir arquivo de script criado para a sua conta no GitHub.
 
 
-DIRETÓRIOS:
------------
+<h4>DIRETÓRIOS:</h4>
 
 /publico
 /adm
@@ -39,8 +37,7 @@ DIRETÓRIOS:
 /sec
 
 
-GRUPOS:
--------
+<h4>GRUPOS:</h4>
 
 GRP_ADM;
 GRP_VEN;
@@ -55,12 +52,10 @@ grupo ven: debora; sebastiana; roberto
 grupo sec: josefina; amanda; rogerio
 -------------------------------------------------------------------------------------
 
-CONCEITOS:
-----------
+<h4>CONCEITOS:</h4>
 
 O que é Infraestrutura como Código?
 -----------------------------------
-
 Infraestrutura como código (IaC - Infrasctructure as Code) é o gerenciamento
 e o provisionamento da infraestrutura por meio de códigos, em vez de processos
 manuais.
@@ -71,19 +66,15 @@ também assegura o provisionamento do mesmo ambiente todas as vezes.
 
 Fonte: Red Hat - https://www.redhat.com/
 
-
 Controle de versão:
 -------------------
-
 O controle de versão e uma parte importante da IaC. Os arquivos de configuração devem
 pertencer à fonte como qualquer outro código-fonte de software. Ao implantar a infra-
 estrutura como código, também é possível separá-la em módulos, que podem ser combinados
 de diferentes maneiras por meio da automação.
 
-
 Principal benefício:
 --------------------
-
 Ao automatizar o provisionamento da infraestrutura como código (IaC), os desenvolvedores 
 não precisam provisionar e gerenciar manualmente servidores, sistemas operacionais, armaze-
 namento e outros componentes de infraestrutura sempre que criam ou implantam uma aplicação.
